@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="Data.Film" table="MOVIES">
+        <id name="Id">
+            <generator class="assigned"></generator>
+        </id>
+
+        <property name="title"></property>
+        <property name="year"></property>
+        <property name="country"></property>
+        <property name="ImdbRating"></property>
+        <property name="director"></property>
+        <property name="actors"></property>
+        <property name="plot"></property>
+        <property name="poster"></property>
+        <property name="genre"></property>
+
+
+    </class>
+
+</hibernate-mapping>
